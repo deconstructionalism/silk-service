@@ -1,0 +1,33 @@
+{
+  "name": "silk-service",
+  "version": "1.0.0",
+  "description": "SILK backend service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deconstructionalism/silk-service.git"
+  },
+  "keywords": [
+    "dynamic",
+    "knowledge",
+    "repository",
+    "linked",
+    "data"
+  ],
+  "author": "Simulacrean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deconstructionalism/silk-service/issues"
+  },
+  "homepage": "https://github.com/deconstructionalism/silk-service#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
