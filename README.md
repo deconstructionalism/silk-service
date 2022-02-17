@@ -1,6 +1,6 @@
-# SILK
+# SILQ
 
-**S**ilk **I**s **L**inked **K**nowledge
+**S**ilk **I**s **L**inked **Q**nowledge
 
 - Service for creating semantically linked documents and records with rich content
 
@@ -31,7 +31,7 @@ record
 
 tag
 
-*user*
+_user_
 
 ## collection types
 
@@ -43,7 +43,7 @@ record set
 
 document generator library
 
-*collaborators*
+_collaborators_
 
 ## api scopes
 
@@ -81,7 +81,7 @@ document_library:unshare
 
 document_library:add_documents
 
-document_library:remove_documents 
+document_library:remove_documents
 
 document generator:create
 
@@ -146,10 +146,10 @@ metadata
 - date edited
 - immutable document history
 - creator
-- *privacy*
-  - *public*
-  - *shared with*
-  - *hidden from*
+- _privacy_
+  - _public_
+  - _shared with_
+  - _hidden from_
 
 markdown compliant text file
 
@@ -158,7 +158,7 @@ associated empheral file system; flat
 markdown superset syntax
 
 - `#<text>` - bi-drectional graph link; link documents together via shared tags
-- *`@<text>` - tag another user available to you; automatically adds view permissions to that user*
+- _`@<text>` - tag another user available to you; automatically adds view permissions to that user_
 - `{{name, type}}` - placeholder for file or linked document
   - on saving file, prompted to enter location of file content for each placeholder, which is then linked via markdown
 - ontological tag....
@@ -167,7 +167,7 @@ markdown superset syntax
 
 templating system for generation of records
 
-*forkable by friends, current user*
+_forkable by friends, current user_
 
 incremental versioning of generator
 
@@ -180,17 +180,17 @@ metadata
 - forked from
 - version
 - creator
-- *privacy*
-  - *public*
-  - *shared with*
-  - *hidden from*
+- _privacy_
+  - _public_
+  - _shared with_
+  - _hidden from_
 
 markdown superset syntax
 
 - `[[name, type]]` - content prompt; must have unique name. types include text, file, or nested document generator
   - careful to avoid infinite loops here
 
-generates a record, which is also a document 
+generates a record, which is also a document
 
 ## records
 
@@ -203,11 +203,10 @@ metadata
 - id
 - date created
 - fileld by id
-- *privacy*
-  - *public*
-  - *shared with*
-  - *hidden from*
+- _privacy_
+  - _public_
+  - _shared with_
+  - _hidden from_
 - document generator id and version
-
 
 immutable, but can be cloned into a document but loses all provenance to record
